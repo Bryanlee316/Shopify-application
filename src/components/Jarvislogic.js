@@ -2,7 +2,7 @@ const { Configuration, OpenAIApi } = require("openai");
 
 const fetchResponse = async (request, bot) => {
 	const configuration = new Configuration({
-		apiKey: "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",
+		apiKey: "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",
 	});
 	const openai = new OpenAIApi(configuration);
 
