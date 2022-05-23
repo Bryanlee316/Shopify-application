@@ -109,10 +109,7 @@ function Jarvis() {
 				data-augmented-ui="all-hexangle-up border"
 				className="reticle2"
 			></div>
-			<div
-				data-augmented-ui="all-hexangle-up border"
-				className="reticle3"
-			></div>
+
 			<Dropdown setBot={setBot} />
 			<video width="500" autoPlay="autoPlay" loop controls muted>
 				<source src={jarvis} type="video/mp4" />

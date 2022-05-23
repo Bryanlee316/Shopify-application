@@ -148,45 +148,11 @@ button {
     top: 200px;
   }
 
-  .reticle3 {
-    --aug-all-width: 150px;
-    color: #FFD130;
-    --reticle-color: currentColor;
-    --reticle-size: calc(var(--aug-all-width) * 0.25);
-    --aug-border-bg: radial-gradient(
-      circle at top center,
-      var(--reticle-color) var(--reticle-size),
-      transparent var(--reticle-size)
-    ), radial-gradient(
-      circle at bottom 13.92% right 6.89%,
-      var(--reticle-color) var(--reticle-size),
-      transparent var(--reticle-size)
-    ), radial-gradient(
-      circle at bottom 13.92% left 6.89%,
-      var(--reticle-color) var(--reticle-size),
-      transparent var(--reticle-size)
-    );
-    transform-origin: 50% 56%;
-    transform: rotateZ(0deg);
-    transition: transform 0.75s ease-out, color 0.75s ease-out;
-    background: radial-gradient(
-      circle at 50% 56%,
-      var(--reticle-color) 0.25rem,
-      transparent 0.25rem
-    );
-    position: absolute;
-    right: 200px;
-    bottom: 200px;
-  }
   .reticle:hover {
     transform: rotateZ(720deg);
     color: red;
   }
   .reticle2:hover {
-    transform: rotateZ(720deg);
-    color: red;
-  }
-  .reticle3:hover {
     transform: rotateZ(720deg);
     color: red;
   }
